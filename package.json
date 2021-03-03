@@ -1,5 +1,5 @@
 {
-  "name": "ionic-native",
+  "name": "ionic-native-anynines",
   "version": "5.31.1",
   "description": "Native plugin wrappers for Cordova and Ionic with TypeScript, ES6+, Promise and Observable support",
   "homepage": "https://ionicframework.com/",
@@ -85,7 +85,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/ionic-native.git"
+    "url": "git+https://github.com/anynines/ionic-native-anynines.git"
   },
   "bugs": {
     "url": "https://github.com/ionic-team/ionic-native/issues"

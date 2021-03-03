@@ -1,12 +1,21 @@
 [![Circle CI](https://circleci.com/gh/ionic-team/ionic-native.svg?style=shield)](https://circleci.com/gh/ionic-team/ionic-native) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) ![](https://img.shields.io/npm/v/@ionic-native/core.svg)
 
+# a9s custom
+
+This is the anynines fork of Ionic Native to maintain the source code of our custom plugin `in-app-browser-anynines`.
+
+To make changes first clone the plugin's distribution repo [https://github.com/anynines/in-app-browser-anynines.git](https://github.com/anynines/in-app-browser-anynines.git). Make your tweaks here and run `npm run build`, after which you will find the actual plugin code in `dist/@ionic-native/plugins/in-app-browser-anynines`.
+
+Copy that code to the plugin repo you cloned before and create pull requests for both.
+
 # Ionic Native
 
 Ionic Native is a curated set of wrappers for Cordova plugins that make adding any native functionality you need to your [Ionic](https://ionicframework.com/) mobile app easy.
 
 Ionic Native wraps plugin callbacks in a Promise or Observable, providing a common interface for all plugins and making it easy to use plugins with Angular change detection.
 
-Ionic Native is available in two versions: 
+Ionic Native is available in two versions:
+
 1. Ionic Native [Community Edition](https://ionicframework.com/docs/native/community), featuring open source, community-maintained Cordova and Capacitor plugins and APIs.
 2. Ionic Native [Enterprise Edition](https://ionicframework.com/docs/enterprise), featuring a library of Premier plugins and solutions that are fully supported and maintained by the Ionic team, with access to Ionic experts and a guaranteed response SLA to mission-critical app development.
 
