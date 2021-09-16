@@ -182,7 +182,7 @@ export class InAppBrowserObject {
   /**
    * Method to be called after the "beforeload" event to continue the script
    * @param strUrl {String} The URL the InAppBrowser should navigate to.
-   * @param headers {String | Record<string, string} Either a serialized string or JS object (hash map)
+   * @param headers {String | Record<string, string>} Either a serialized string or JS object (hash map)
    * containing custom headers to be sent with the request
    */
   @CordovaInstance({ sync: true })
@@ -191,7 +191,7 @@ export class InAppBrowserObject {
   /**
    * Takes a JSON-stringified request of any method and creates a request object from that which then gets loaded.
    * @param jsonRequestData {String} JSON representation a an HTTP request.
-   * @param headers {String | Record<string, string} Either a serialized string or JS object (hash map)
+   * @param headers {String | Record<string, string>} Either a serialized string or JS object (hash map)
    * containing custom headers to be sent with the request
    */
   @CordovaInstance({ sync: true })
