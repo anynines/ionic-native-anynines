@@ -140,6 +140,8 @@ export interface InAppBrowserEvent extends Event {
   message: string;
   /** the postMessage data, only in the case of message. */
   data: any;
+  /** JSON stringified http request data, only in combination with cordova-plugin-inappbrowser-anynines */
+  request: string;
 }
 
 /**
